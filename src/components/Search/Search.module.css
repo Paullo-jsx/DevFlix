@@ -1,0 +1,13 @@
+input {
+  font-size: .9em;
+  color: #242424;
+  font-weight: 500;
+  background-color: aliceblue;
+  padding: 1.2em;
+  margin-bottom: 2em;
+  border: none;
+  outline: none;
+  border-radius: .4em;
+  width: 55%;
+  
+}

@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 25em;
+  border-radius: 1em;
+  border: #242424 solid;
+  padding: 1em;
+  text-align: center;
+  z-index: 1;
+}
+.card hr {
+  border-color: #242424;
+}
+.card img {
+  transition: .3s;
+  border-radius: 1em 1em 0 0;
+  width: 100%;
+}
+.card nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  background-color: #242424;
+  border: 1x solid #242424;
+  border-radius: .5em;
+  padding: .4em;
+}
+.card nav button {
+  display: flex;
+  padding: .4em;
+  background: none;
+  border: 2px solid #be6056;
+  border-radius: .3em;
+}

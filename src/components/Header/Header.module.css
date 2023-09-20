@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: .3s;
+}
+a:hover {
+  color: #333232;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .8em;
+  border-bottom: 1.5px #333232 solid;
+  background-color:  #16191d;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+}
+header nav {
+  display: flex;
+  gap: 1.5em;
+}
+@media screen and (max-width: 600px) {
+  header nav .linkss {
+    display: none;
+  }
+}
